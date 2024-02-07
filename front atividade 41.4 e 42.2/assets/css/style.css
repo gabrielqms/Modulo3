@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+
+.text{
+    color: white;
+}
+
+.textarea {
+    width: 20%;
+    height: 200px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 9, 45);
+    padding: 20px;
+    border-radius: 10px;
+
+ }
+
+.menu li{
+    display: inline;
+    padding: 16px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    font-size: 40px;
+    color: white;
+}
+
+.container{
+    display: flex; 
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias{
+    display: flex;
+    justify-content: center;
+}
+
+.tecnologias img{
+    margin: 0 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.wh-500{
+    width: 300px;
+    height: 165px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+}
+
+.logolinkedin{
+    width: 100px;
+    height: 100px;
+}
+
+.logogithub{
+    width: 100px;
+    height: 100px;
+}
+
+.logoemail{
+    width: 100px;
+    height: 100px;
+}

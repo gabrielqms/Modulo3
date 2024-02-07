@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Gabriel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+
 <body>
-    <div>
-        <!--lista não ordenada que será nosso menu-->
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="contato.html">Fale Conosco</a></li>
-        </ul>
-    </div>
-    <div>
-        <h1>Gabriel Macedo</h1>
+    <!--lista não ordenada que será nosso menu-->
+    <ul class="menu footer">
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Fale Conosco</a>
+        </li>
+    </ul>
+    <div class="text">
+        <h1>Gabriel Macedo </h1>
         <h2>Sobre mim</h2>
-        <p>
+        <p class="center" style="font-size: 20px;">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             <br>
@@ -26,7 +30,7 @@
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.
         </p>
-        <p>
+        <p style="font-size: 20px;">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Quis varius quam quisque id diam vel quam elementum pulvinar. Suscipit adipiscing
             bibendum est ultricies integer quis auctor. Diam phasellus vestibulum lorem sed risus ultricies tristique
@@ -38,7 +42,7 @@
 
         </p>
 
-        <p>
+        <p style="font-size: 20px;">
             Vulputate dignissim suspendisse in est. Vel pretium lectus quam id leo in. Tortor at risus viverra
             adipiscing at in tellus. Scelerisque viverra mauris in aliquam sem fringilla ut. Quis ipsum suspendisse
             ultrices gravida dictum fusce. Mauris pharetra et ultrices neque ornare aenean. Turpis egestas maecenas
@@ -50,15 +54,19 @@
         </p>
         <hr />
     </div>
-    <div>
-        <h2>Tecnologias que conheço</h2>
-        <a href="https://docs.oracle.com/en/java/"><img src="./assets/img/java.png" alt="Logo da linguagem de programação Java" title="Java"></a>
-        <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/"><img src="./assets/img/spring_boot.png" alt="Logo do framework Spring Boot" title="Spring Boot"></a>
-        <a href="https://dev.mysql.com/doc/"><img src="./assets/img/my_sql.png" alt="Logo do banco de dados My SQL" title="My SQL"></a>
-        <a href="https://docs.github.com/pt"><img src="./assets/img/github.png" alt="Logo do Github" title="Github"></a>
+    <h2  class="text" style="text-align: center;">Tecnologias que conheço</h2>
+    <div class="tecnologias">
 
+        <a href="https://docs.oracle.com/en/java/"><img src="./assets/img/java.png"
+                alt="Logo da linguagem de programação Java" title="Java"></a>
+        <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/"><img
+                src="./assets/img/spring_boot.png" alt="Logo do framework Spring Boot" title="Spring Boot"></a>
+        <a href="https://dev.mysql.com/doc/"><img src="./assets/img/my_sql.png" alt="Logo do banco de dados My SQL"
+                title="My SQL"></a>
+        <a href="https://docs.github.com/pt"><img class="wh-500" src="./assets/img/github.png" alt="Logo do Github" title="Github"></a>
     </div>
-    <div>
+    <hr />
+    <div class="text">
         <h2>Top 5 soft skills</h2>
 
         <ol>
@@ -71,4 +79,5 @@
     </div>
 
 </body>
+
 </html>

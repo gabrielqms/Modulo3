@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
     <div>
         <!--lista não ordenada que será nosso menu-->
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="contato.html">Fale Conosco</a></li>
+        <ul class="menu footer">
+            <li><a class="text" href="./index.html">Home</a></li>
+            <li><a class="text"  href="contato.html">Fale Conosco</a></li>
         </ul>
     </div>
-    <div>
-        <h1>Fale conosco</h1>
+    <div style="text-align: center;">
+        <h1 class="text">Fale conosco</h1>
 
 
         <form>
-            <label for="nome">Nome:</label><br>
+            <label class="text" for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome" ><br>
-            <label for="lname">Sobrenome:</label><br>
+            <label class="text" for="lname">Sobrenome:</label><br>
             <input type="text" id="lname" name="lname" >
-            <input type="submit" value="Enviar">
-            <div>
-                <label for="mensagem"></label>
-                <textarea id="mensagem" name="mensagem"></textarea>
-            </div>
             
+            <div>
+                <label class="text" for="mensagem"> Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" class="textarea"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+            
+            <h2 class="text">contato pessoal</h2>
+            <div class="tecnologias footer">
+                <a href="https://www.linkedin.com/in/gabriel-macedo-015b57276/"><img src="./assets/img/linkedin.png" alt="Meu linkedin" title="linkedin" class="logolinkedin"></a>
+                <a href="mailto:gabriel.qmacedo@gmail.com"><img src="./assets/img/gmail.png" alt="Meu email" title="email" class="logoemail"></a>
+                <a href="https://github.com/gabrielqms"><img src="./assets/img/githublogo.png" alt="Meu github" title="github" class="logogithub"></a>
+            </div>
+
+
+
 
         </form>    
     </div>
